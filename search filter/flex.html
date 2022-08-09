@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="title">Product Filter</h2>
+      <!-- header -->
+      <div class="search-box">
+        <form action="">
+          <input
+            type="text"
+            class="search-box"
+            id="search"
+            placeholder="Search product"
+          />
+        </form>
+      </div>
+      <div class="filter-box">
+        <button class="btn" data-filter="">All</button>
+        <button class="btn" data-filter="watch">Watch</button>
+        <button class="btn" data-filter="shirt">Shirt</button>
+        <button class="btn" data-filter="gown">Gown</button>
+        <button class="btn" data-filter="jewelry">Jewelry</button>
+      </div>
+    </header>
+
+    <!-- Body -->
+
+    <div class="container">
+      <!-- grid -->
+      <div class="products-center">
+        <!-- products -->
+        <!-- <section class="products">
+
+        </section> -->
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js"
+      integrity="sha512-rozBdNtS7jw9BlC76YF1FQGjz17qQ0J/Vu9ZCFIW374sEy4EZRbRcUZa2RU/MZ90X2mnLU56F75VfdToGV0RiA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

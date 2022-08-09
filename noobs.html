@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noob tester</title>
+    <style>
+       body {
+        height: 100vh;
+                display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #121212;
+       }
+      .text{
+          padding-left: 12px;
+        color: #fff;
+      }
+      p , span{ 
+        color: #fff;
+          font-size: 1.5rem;
+      }
+      span{
+          padding-left: 45px;
+      }
+      h1{
+          color: #fff;
+        display: flex;
+        align-self: center;
+        padding-left: 45px;
+        margin-bottom: 50px;
+        margin-top: -100px;
+    }
+    </style>
+  </head>
+  <body>
+<div class="container">
+    <h1>Noob tester</h1>
+    <p>Mizane noobiate shoma:</p>
+    <span></span>
+</div>
+    <script>
+var quotes=new Array();
+quotes[0] = "noobe sade";
+quotes[1] = "Kheyli noobe sagi";
+quotes[2] = "to ye abar noobi!!!";
+quotes[3] = "Khodaye nooba";
+quotes[4] = "soltane nooba";
+quotes[5] = "noobe sag";
+quotes[6] = "noobe pashmi";
+quotes[7] = "yekam noobi";
+quotes[8] = "ERROR 404";
+quotes[9] = "noobe asil zade";
+quotes[9] = "fara noobe sag";
+
+var q = quotes.length;
+var whichquote=Math.round(Math.random()*(q-1));
+function showquote(){document.querySelector("span").innerText=quotes[whichquote];}
+showquote();
+    </script>
+  </body>
+</html>

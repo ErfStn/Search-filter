@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    padding: 10px 15px;
+    margin: 5px;
+    border: 0;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: aqua;
+    color:blue;
+  cursor: pointer;
+    
+}
